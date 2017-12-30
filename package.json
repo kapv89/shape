@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "babel-node test/main.js",
+    "repl": "babel-node",
     "build": "npm run clean && babel src/ --out-dir lib/ && cp lib/common.js common.js",
     "watch": "npm run clean && babel -w src/ --out-dir lib/",
     "clean": "rm -rf lib/ && rm common.js -f"
