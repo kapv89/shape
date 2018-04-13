@@ -1,8 +1,8 @@
 {
   "name": "vent",
   "version": "1.0.0",
-  "description": "An isomorphic event-aggregator",
-  "main": "index.js",
+  "description": "An isomorphic & async object-validation library",
+  "main": "lib/Shape.js",
   "scripts": {
     "test": "babel-node test/main.js",
     "repl": "babel-node",
@@ -12,18 +12,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/kapv89/vent.git"
+    "url": "git+ssh://git@github.com/kapv89/shape.git"
   },
   "keywords": [
-    "events",
-    "isomorphic"
+    "async",
+    "isomorphic",
+    "object-validation",
+    "validation"
   ],
   "author": "Kapil Verma <kapv89@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kapv89/vent/issues"
+    "url": "https://github.com/kapv89/shape/issues"
   },
-  "homepage": "https://github.com/kapv89/vent#readme",
+  "homepage": "https://github.com/kapv89/shape#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.2.3",
@@ -35,6 +37,7 @@
     "eslint-plugin-react": "^7.7.0"
   },
   "dependencies": {
+    "@krab/isuseableobject": "^1.0.1",
     "lodash": "^4.17.5"
   }
 }
