@@ -1,5 +1,5 @@
 {
-  "name": "vent",
+  "name": "@krab/shape",
   "version": "1.0.0",
   "description": "An isomorphic & async object-validation library",
   "main": "lib/Shape.js",
